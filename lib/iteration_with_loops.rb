@@ -21,7 +21,6 @@ mixed_data = [
   ["studied", 101, 233, "Ruby"]
 ]
 
-end
 
 counter = 0
 while src[counter] do
