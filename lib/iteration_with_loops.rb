@@ -20,6 +20,12 @@ mixed_data = [
   [-1, "brown", "fox", 30],
   ["studied", 101, 233, "Ruby"]
 ]
-new_array = []
-new_array.colect("")
+
+end
+
+counter = 0
+while src[counter] do
+  puts src[counter]
+  counter += 1
+end
 end
