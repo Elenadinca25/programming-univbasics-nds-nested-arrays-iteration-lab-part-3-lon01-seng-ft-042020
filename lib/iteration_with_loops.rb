@@ -20,5 +20,6 @@ mixed_data = [
   [-1, "brown", "fox", 30],
   ["studied", 101, 233, "Ruby"]
 ]
-mixed_data.colect("")
+new_array = []
+new_array.colect("")
 end
