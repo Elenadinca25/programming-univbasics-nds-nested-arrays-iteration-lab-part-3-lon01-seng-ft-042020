@@ -6,7 +6,7 @@ def join_nested_strings(src)
 new_array = []
 i = 0
 while i < length do
-  new_array.push.string("#{src[i][0]} #{src[i][1]} #{src[i][2]}")
+  new_array.push("#{src[i][0]} #{src[i][1]} #{src[i][2]}")
   i += 1
 end
 new_array.join("")
