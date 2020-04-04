@@ -3,17 +3,14 @@ def join_nested_strings(src)
   # src will be an Array of Arrays of Strings and Integers
   # Combine all Strings present in the AoA into a single value and return it
 
-  array = []
-row_index = 0
-while row_index < src.count do
-  element_index = 0
-  array[row_index] = ""
-  row_index += 1
+new_array = []
+i = 0
+while i < length do
+  new_array.push.string("#{src[i][0]} #{src[i][1]} #{src[i][2]}")
+  i += 1
 end
-  array.join("")
-  array
+new_array.join("")
 end
-
 =begin
 mixed_data = [
   ["The", 4, "quick"],
