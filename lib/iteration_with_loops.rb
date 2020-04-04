@@ -9,6 +9,7 @@ while row_index < src.count do
   array[row_index] = "#{src[row_index][0][0]} #{src[row_index][0][2]} #{src[row_index][1][1]} #{src[row_index][1][2]} #{src[row_index][2][0]} #{src[row_index][2][3]}"
   row_index += 1
 end
+  array.join("")
   array
 end
 
