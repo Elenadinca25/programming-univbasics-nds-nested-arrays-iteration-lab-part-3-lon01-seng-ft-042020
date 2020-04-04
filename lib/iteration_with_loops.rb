@@ -10,13 +10,15 @@ while row_index < src.count do
   array[row_index] = "#{src[0][0]} #{src[0][2]} #{src[1][1]} #{src[1][2]} #{src[2][0]} #{src[2][3]}"
   row_index += 1
 end
-array
+array.join("")
 end
 
+
+=begin
 mixed_data = [
   ["The", 4, "quick"],
   [-1, "brown", "fox", 30],
   ["studied", 101, 233, "Ruby"]
 ]
-
+=element_index
 |
