@@ -7,3 +7,4 @@ src.each do |item|
   next if item .is_a? String
 result << ""
 end
+end
