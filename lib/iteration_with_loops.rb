@@ -6,7 +6,7 @@ def join_nested_strings(src)
 row_index = 0
 while row_index < src.count do
   element_index = 0
-  array[row_index] = "#{src[0][0]} #{src[0][2]} #{src[1][1]} #{src[[1][2]} #{src[2][0]} #{src[2][3]}"
+  array[row_index] = "#{src[row_index]}"
   row_index += 1
 end
   array.join("")
