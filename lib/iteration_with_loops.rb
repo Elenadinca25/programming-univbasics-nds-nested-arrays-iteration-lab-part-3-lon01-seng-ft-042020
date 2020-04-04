@@ -46,12 +46,8 @@ count = 0
   array
 end
 =end
-
-new_array = []
-i = 0
-while i < src.length do
-  new_array << "src[i]"
-  i += 1
-end
-new_array
+src.each do |mixed_data|
+  string_array.each do |string_element|
+    puts string_element
+  end
 end
